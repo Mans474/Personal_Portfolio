@@ -305,6 +305,33 @@ section h2
 {
     text-decoration: underline;
 }
+.social-links
+{
+    justify-content: center;
+    gap : 25px;
+    margin-top: 20px;
+}
+.social-links a
+{
+    transition: 0.3s;
+}
+.social-links a:hover
+{
+    transform: translateY(-5px);
+    color : #ffffff;
+}
+.fa-github
+{
+    padding : 10px;
+}
+.fa-linkedin
+{
+    padding: 10px;
+}
+.fa-envelope
+{
+    padding: 10px;
+}
 /* Footer */
 footer
 {
