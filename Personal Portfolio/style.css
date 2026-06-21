@@ -351,6 +351,12 @@ footer p
     {
         font-size: 1.8rem;
     }
+    .btn{
+        padding: 10px 20px;
+        font-size: 0.95rem;
+        width : auto;
+        max-width: 220px;
+    }
     .skill-container
     {
         gap : 12px;
