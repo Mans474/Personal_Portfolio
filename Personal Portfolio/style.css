@@ -1,5 +1,5 @@
 /* Google Font */
-@import url('https://fonts.googleapis.com/css?famile=Poppins;wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 
 #preloader
@@ -216,7 +216,7 @@ section h2
     text-transform: capitalize;
 }
 /* Skills Section */
-.skill-container
+.skills-container
 {
     display: flex;
     flex-wrap: wrap;
@@ -317,15 +317,19 @@ footer p
     nav
     {
         flex-direction: column;
-        gap : 15px;
-        padding: 15px;
+        text-align: center;
     }
     .nav-links
     {
+        display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap : 15px;
+        gap : 12px;
     }
+    .nav-links a 
+    {
+        font-size: 0.95rem
+    };
     .hero-content h1 
     {
         font-size: 2.3rem;
@@ -364,7 +368,7 @@ footer p
     {
         padding: 20px;
     }
-    #conatct p 
+    #contact p 
     {
         word-break: break-word;
     }
